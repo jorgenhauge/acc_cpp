@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include <print>
 #include <map>
 #include <string>
 
@@ -22,6 +21,8 @@ int main()
     std::string shortest_word = words.front();
     std::string longest_word = words.back();
 
-    std::println("Shortest word is: '{}', length: {}, and longest word is: '{}', length: {}",
-                 shortest_word, shortest_word.length(), longest_word, longest_word.length());
+    std::cout << "Shortest word is: " << shortest_word << 
+                 ", length: " << shortest_word.length() <<
+                 ", and longest word is: " << longest_word <<
+                 ", length: " << longest_word.length() << std::endl;
 }
